@@ -1,4 +1,4 @@
-# java-webapp
+# Student Info Tracker Java Web App
 
 ## Required Dependencies
 * Java 8 (This is required for jpf-symbc)
@@ -74,3 +74,10 @@ Connect Tomcat in Ecliplse:
 * Click Project Explorer -> click Server (at the bottom)
 * Apache -> Tomcat v9.0 Server -> Select Tomcat installation directory (where Tomcat is downloaded) -> Finish
 
+## Running This Project
+* Clone the repo
+* Import into Eclipse
+  * File -> Import -> Existing Projects into Workspace -> Next -> select root directory -> Finish
+  * Right-click the project and select Properties. Make sure 1) Java Build Path -> Libraries has Java 8 JRE library and Tomcat 9.0, 2) Java Compiler -> JDK compliance is at 1.8.
+* Right-click student-info-tracker/WebContent/list-students.jsp -> Run As -> Run on server -> select Tomcat 9
+* Now can view the page on localhost:8080
