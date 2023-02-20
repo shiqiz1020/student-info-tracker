@@ -1,7 +1,9 @@
 # Student Info Tracker Java Web App
 
 ## Required Dependencies
-* Java 8 (This is required for jpf-symbc)
+* JDK - 1.8 (This is required for jpf-symbc)
+* JSP - 2.3
+* JSTL - 1.2.1
 * [Apache Tomcat v9.0](https://tomcat.apache.org/download-90.cgi)
 * [Eclipse](https://www.eclipse.org/downloads/) (Enterprise Edition)
 * [MySQL v8](https://dev.mysql.com/downloads/mysql/)
@@ -79,5 +81,6 @@ Connect Tomcat in Ecliplse:
 * Import into Eclipse
   * File -> Import -> Existing Projects into Workspace -> Next -> select root directory -> Finish
   * Right-click the project and select Properties. Make sure 1) Java Build Path -> Libraries has Java 8 JRE library and Tomcat 9.0, 2) Java Compiler -> JDK compliance is at 1.8.
+* Use the scripts in `sql-scripts` folder to create the `web-student-tracker` database
 * Right-click student-info-tracker/WebContent/list-students.jsp -> Run As -> Run on server -> select Tomcat 9
 * Now can view the page on localhost:8080
